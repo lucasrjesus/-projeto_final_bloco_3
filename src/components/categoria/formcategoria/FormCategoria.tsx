@@ -1,8 +1,8 @@
 import { useState, useEffect, type ChangeEvent, type SyntheticEvent } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { ClipLoader } from "react-spinners";
-import type Categoria from "../../models/Categoria";
-import { atualizar, buscar, cadastrar } from "../../services/Service";
+import type Categoria from "../../../models/Categoria";
+import { atualizar, buscar, cadastrar } from "../../../services/Service";
 
 function FormCategoria() {
 

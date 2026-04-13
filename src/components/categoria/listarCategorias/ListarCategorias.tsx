@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { SyncLoader } from "react-spinners";
-import type Categoria from "../../models/Categoria";
-import { buscar } from "../../services/Service";
-import CardCategoria from "../categoria/cardcategoria/cardCategoria";
+import type Categoria from "../../../models/Categoria";
+import { buscar } from "../../../services/Service";
+import CardCategoria from "../cardcategoria/cardCategoria";
 
 
 function ListarCategorias() {

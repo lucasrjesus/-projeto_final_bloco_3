@@ -4,8 +4,8 @@ import Navbar from './components/navbar/Navbar'
 import Home from './pages/home/Home'
 import Footer from './components/footer/Footer'
 import DeletarCategoria from './components/categoria/deletarcategoria/DeletarCategoria'
-import ListarCategorias from './components/listarCategorias/ListarCategorias'
-import FormCategoria from './components/formcategoria/FormCategoria'
+import ListarCategorias from './components/categoria/listarCategorias/ListarCategorias'
+import FormCategoria from './components/categoria/formcategoria/FormCategoria'
 
 function App() {
   return (
